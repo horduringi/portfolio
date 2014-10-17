@@ -42,8 +42,30 @@ $(document).ready(function() {
 	}, 12000);
 	window.setTimeout(function () {
 	    $("#myself").addClass("in");
-	}, 15000);
+	}, 12000);
 	window.setTimeout(function () {
 	    $("#us").addClass("in");
-	}, 18000);
+	}, 12000);
+
+	window.setTimeout(function () {
+	    $("#scroll-chevron-down").addClass("in");
+	}, 12000);
+
+	$('#scroll-chevron-down').on('click', function(){
+		$("html, body").animate(
+	      {scrollTop: $("#screen-below").offset().top}
+	    , 500)
+
+	})
+
+	$('#all').on('click', function() {
+		$('#all').addClass("active");
+		$('#favorite').removeClass("active");
+		$('.regular').slideDown().addClass("in");
+	})
+	$('#favorite').on('click', function() {
+		$('#favorite').addClass("active");
+		$('#all').removeClass("active");
+		$('.regular').slideUp().removeClass("in");
+	})
 })

@@ -56,3 +56,55 @@ a {
     -o-transition: opacity 1s linear;
     transition: opacity 1s linear;
 }
+#scroll-chevron-down {
+	position: absolute;
+	left: calc(50% - 27px);
+	bottom: 0px;
+	font-size: 30px;
+	padding: 20px;
+	cursor: pointer;
+}
+#screen-below {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	min-height: 100%;
+	padding-top: 10px;
+	background-color: #3a87ad;
+}
+
+.center-pills { 
+	display: inline-block; 
+}
+
+#projectsContainer {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+img {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+a {
+	cursor: pointer;
+}
+a.btn-default:hover {
+	color: white;
+}
+
+ul.nav.nav-pills li a {
+	color: white;
+}
+ul.nav.nav-pills li.active a:hover {
+	color: white;
+}
+ul.nav.nav-pills li a:hover {
+	color: #3a87ad;
+}
+#portfolioHeading {
+	color: white;
+	margin-bottom: 22px;
+}
