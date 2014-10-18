@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	window.setTimeout(function() {
+		$('header h2').remove();
 		$('header').append("<h2 class='text-primary'>tomorrow's web is</h2>");
 		$('header h2').hide().fadeIn(1000);
 		window.setTimeout(function(){
@@ -8,7 +9,7 @@ $(document).ready(function() {
 	}, 1000);
 	window.setTimeout(function() {
 		$('header h2').remove();
-		$('header').append("<h2 class='text-primary'>usable, responsive, and simple,</h2>");
+		$('header').append("<h2 class='text-primary'>usable, responsive, simple,</h2>");
 		$('header h2').hide().fadeIn(1000);
 		window.setTimeout(function(){
 			$('header h2').fadeOut(1000);

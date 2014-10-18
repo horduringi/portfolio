@@ -8,6 +8,9 @@ h2 {
 	text-align: center;
 	font-size: 3.5em;
 }
+.transparent {
+	opacity: 0;
+}
 
 h3.text-primary{
 	border-top: 3px solid #444;
@@ -21,6 +24,9 @@ a {
 
 .top-border {
 	border-top: 3px solid #444;	
+}
+header {
+	min-height: 142px;
 }
 @media (max-width: 767px) {
 	.container {
