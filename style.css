@@ -22,6 +22,15 @@ a {
 .top-border {
 	border-top: 3px solid #444;	
 }
+@media (max-width: 767px) {
+	.container {
+
+
+	}
+	#screen-below {
+		position: static !important;
+	}
+}
 
 @media (min-height: 465px) and (min-width: 768px) and (max-width: 1199px) {
 	.container {
@@ -71,6 +80,7 @@ a {
 	min-height: 100%;
 	padding-top: 10px;
 	background-color: #3a87ad;
+	padding-bottom: 50px;
 }
 
 .center-pills { 
@@ -107,4 +117,16 @@ ul.nav.nav-pills li a:hover {
 #portfolioHeading {
 	color: white;
 	margin-bottom: 22px;
+}
+.white-text {
+	color: white;
+}
+#scroll-chevron-up {
+
+	position: absolute;
+	left: calc(50% - 33px);
+	bottom: 0px;
+	font-size: 30px;
+	padding: 20px;
+	cursor: pointer;
 }
