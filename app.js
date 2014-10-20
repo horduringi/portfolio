@@ -4,36 +4,6 @@ $(document).ready(function() {
 		$('header').append("<h2 class='text-danger'>web developer</h2>");
 		$('header h2').hide().fadeIn(1000);
 	}, 1000);
-	/*window.setTimeout(function() {
-		$('header h2').remove();
-		$('header').append("<h2 class='text-primary'>usable, responsive, simple,</h2>");
-		$('header h2').hide().fadeIn(1000);
-		window.setTimeout(function(){
-			$('header h2').fadeOut(1000);
-		}, 1000);
-	}, 3000);*/
-	/*window.setTimeout(function() {
-		$('header h2').remove();
-		$('header').append("<h2 class='text-primary'>responsive,</h2>");
-		$('header h2').hide().fadeIn(1000);
-		window.setTimeout(function(){
-			$('header h2').fadeOut(1000);
-		}, 1000);
-	}, 5000);
-		window.setTimeout(function() {
-		$('header h2').remove();
-		$('header').append("<h2 class='text-primary'>and simple,</h2>");
-		$('header h2').hide().fadeIn(1000);
-		window.setTimeout(function(){
-			$('header h2').fadeOut(1000);
-		}, 1000);
-	}, 7000);*/
-	/*window.setTimeout(function() {
-		$('header h2').remove();
-		$('header').append("<h2 class='text-primary'>let's make it today</h2>");
-		$('header h2').hide().fadeIn(1000);
-	}, 5000);*/
-
 
 	window.setTimeout(function () {
 	    $("#me").addClass("in");
