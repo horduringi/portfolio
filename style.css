@@ -71,14 +71,7 @@ header {
     -o-transition: opacity 1s linear;
     transition: opacity 1s linear;
 }
-#scroll-chevron-down {
-	position: absolute;
-	left: calc(50% - 27px);
-	bottom: 0px;
-	font-size: 30px;
-	padding: 20px;
-	cursor: pointer;
-}
+
 #screen-below {
 	position: absolute;
 	top: 100%;
@@ -127,8 +120,15 @@ ul.nav.nav-pills li a:hover {
 .white-text {
 	color: white;
 }
+#scroll-chevron-down {
+	position: absolute;
+	left: calc(50% - 33px);
+	bottom: 0px;
+	font-size: 30px;
+	padding: 20px;
+	cursor: pointer;
+}
 #scroll-chevron-up {
-
 	position: absolute;
 	left: calc(50% - 33px);
 	bottom: 0px;
